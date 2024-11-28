@@ -1,38 +1,253 @@
-.App {
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ramaraja-regular {
+  font-family: "Ramaraja", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h1-title{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  color:#fff;
+  -webkit-text-stroke: 1px #905edb; /* Black border around text */
+  text-shadow: 2px 2px 4px #905edb; /* Shadow for depth */
+  letter-spacing: 2px;
+}
+
+.content-section {
+  /* background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png") !important;
+  background: #fff;
+}
+
+.button-design{
+  border: 1px solid #905edb !important;
+  background: #fff !important;
+  color: #905edb !important;
+}
+
+button:hover{
+  border: 1px solid #fff !important;
+  background: #905edb !important;
+  color: #fff !important;
+}
+
+h4 {
+   font-family: "Open Sans", sans-serif;
+
+}
+
+p {
+   font-family: "Open Sans", sans-serif;
+  
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+span{
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.margin-top-neg {
+  margin-top: -0.8rem;
+}
+
+.font-size-p{
+  font-size: 1.2rem;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-align-justify {
+  text-align: justify;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-style-italics{
+  font-style: italic;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-design{
+  border: 2px solid #905edb !important;
+  background: #fff;
+}
+
+.margin-top-10{
+  margin-top: 10px !important;
+}
+
+.header {
+  /* background: #905EDB ; */
+  background-color: #905edb !important;
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png") !important;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.form-container {
+  width: 100%;
+  margin: 0 auto;   /* Center the form */
+}
+
+iframe.form-section {
+  border: none;
+}
+
+/* Add to your CSS file */
+iframe.maps-section {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* slick */
+
+/* General styles for the section */
+.prenup-section {
+  background: #fff;
+  padding: 4rem 0;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.prenup-section.visible {
+  opacity: 1;
+}
+
+
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+/* Slick arrow buttons */
+.slick-prev, .slick-next {
+  font-size: 40px;
   color: white;
+  opacity: 0.6;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  transition: opacity 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.slick-prev:hover, .slick-next:hover {
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Make sure images are above other slider elements */
+.slider-image-container {
+  position: relative;
+  z-index: 10; /* Ensure image container is above slider arrows */
+}
+
+img.img-slider {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 10; /* Ensure the images themselves are clickable */
+}
+
+img.img-slider:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Modal should be above everything else */
+  backdrop-filter: blur(5px); /* Apply blur effect to the background */
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Modal content */
+.modal-content {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 10000; /* Ensure modal content is above everything */
+}
+
+/* Image inside modal will take full width */
+.modal-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+/* Responsive layout for mobile devices */
+@media (max-width: 640px) {
+  .slick-dots{
+    display: none !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .gvTsfP{
+    max-width: 100% !important;
   }
+
+
+
 }
