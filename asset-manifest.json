@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gloryassurance/static/css/main.9ff1456f.css",
-    "main.js": "/gloryassurance/static/js/main.0cd33f32.js",
+    "main.css": "/gloryassurance/static/css/main.09bc2ce3.css",
+    "main.js": "/gloryassurance/static/js/main.650ed543.js",
     "static/js/453.16efdcad.chunk.js": "/gloryassurance/static/js/453.16efdcad.chunk.js",
     "static/media/4.jpg": "/gloryassurance/static/media/4.6d4107e896cdc377a67c.jpg",
     "static/media/3.jpg": "/gloryassurance/static/media/3.6515c74da3dd25586088.jpg",
@@ -15,12 +15,12 @@
     "static/media/slick.ttf": "/gloryassurance/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/gloryassurance/index.html",
     "static/media/slick.woff": "/gloryassurance/static/media/slick.295183786cd8a1389865.woff",
-    "main.9ff1456f.css.map": "/gloryassurance/static/css/main.9ff1456f.css.map",
-    "main.0cd33f32.js.map": "/gloryassurance/static/js/main.0cd33f32.js.map",
+    "main.09bc2ce3.css.map": "/gloryassurance/static/css/main.09bc2ce3.css.map",
+    "main.650ed543.js.map": "/gloryassurance/static/js/main.650ed543.js.map",
     "453.16efdcad.chunk.js.map": "/gloryassurance/static/js/453.16efdcad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ff1456f.css",
-    "static/js/main.0cd33f32.js"
+    "static/css/main.09bc2ce3.css",
+    "static/js/main.650ed543.js"
   ]
 }
