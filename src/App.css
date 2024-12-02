@@ -247,10 +247,10 @@ img.img-slider:hover {
   font-weight: bold;
   border: none;
   box-shadow: none;
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', serif !important;
   font-size: 1rem;
   background-color: #fff;
-  letter-spacing: 2px
+  letter-spacing: 1.5px
 }
 
 .font-opens-sans{
@@ -260,7 +260,9 @@ img.img-slider:hover {
 
 .faq-accordion > p {
   color: #000 !important;
-  letter-spacing: 2px
+  font-family: 'Open Sans', serif !important;
+  font-size: 1rem;
+  letter-spacing: 1px
 }
 
 .faq-accordion .accordion-button:not(.collapsed) {

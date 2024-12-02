@@ -17,7 +17,6 @@ const Details = () => {
                         <p className='text-align-left font-size-p font-style-italics'><span>Event Highlights:</span></p>
                         <p className='text-align-left '>* Inspiring messages from our <span>CEO Mr. James Chen</span> and Global Marketing <span>Director Mr Steven Huat</span>.</p>
                         <p className='text-align-left  margin-top-neg'>* Exclusive updates and plans for the company’s growth in Asia.</p>
-                        <p className='text-align-left  margin-top-neg'>* Networking opportunities with fellow pioneers and leaders.</p>
                         <p className='text-align-left font-size-p font-style-italics '><span>Event Details:</span></p>
                         <p className='text-align-left '>📅 Date: <span> December 14th & 15th</span></p>
                         <p className='text-align-left margin-top-neg'>📍 Location: <span>Venue Name TBC</span></p>
