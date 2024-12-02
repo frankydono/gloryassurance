@@ -17,7 +17,7 @@ const RSVPForm = () => {
                     <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLScbXnZN4j57F9FtTepRVEF65GRGj8woReQRvVo3-SawuPp4-w/viewform"
                         width="100%"
-                        height="800"
+                        height="1200"
                         frameBorder="0"
                         marginHeight="0"
                         marginWidth="0"

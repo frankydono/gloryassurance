@@ -223,7 +223,7 @@ img.img-slider:hover {
 }
 
 .margin-top-3rem {
-  margin-top: 3rem;
+  margin-top: 3rem !important;
 }
 
 
