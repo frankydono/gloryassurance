@@ -55,7 +55,7 @@ const FAQ = () => {
     <div className='faq-section'>
         <Row className="justify-content-center margin-top-10">
             <Col md={12} className="text-center">
-            <h1 className="global-title-template h1-title"> Frequently Asked Question </h1>
+            <h1 className="global-title-template h1-title"> Event FAQ </h1>
             </Col>
         </Row>
         <Row className="justify-content-center margin-top-55 margin-bottom-140 ">
