@@ -1,42 +1,12 @@
 
-.space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.space-mono-bold {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.ramaraja-regular {
-  font-family: "Ramaraja", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .h1-title{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
   color:#fff;
-  -webkit-text-stroke: 1px #905edb; /* Black border around text */
-  text-shadow: 2px 2px 4px #905edb; /* Shadow for depth */
+  -webkit-text-stroke: 1px #B750FF; /* Black border around text */
+  text-shadow: 2px 2px 4px #B750FF; /* Shadow for depth */
   letter-spacing: 2px;
 }
 
@@ -52,14 +22,14 @@
 }
 
 .button-design{
-  border: 1px solid #905edb !important;
+  border: 1px solid #B750FF !important;
   background: #fff !important;
-  color: #905edb !important;
+  color: #B750FF !important;
 }
 
 button:hover{
   border: 1px solid #fff !important;
-  background: #905edb !important;
+  background: #B750FF !important;
   color: #fff !important;
 }
 
@@ -105,7 +75,7 @@ span{
 }
 
 .card-design{
-  border: 2px solid #905edb !important;
+  border: 2px solid #B750FF !important;
   background: #fff;
 }
 
@@ -114,9 +84,9 @@ span{
 }
 
 .header {
-  /* background: #905EDB ; */
-  background-color: #905edb !important;
-  background-image: url("https://www.transparenttextures.com/patterns/snow.png") !important;
+  /* background: #B750FF ; */
+  background-color: #B750FF !important;
+  /* background-image: url("https://www.transparenttextures.com/patterns/snow.png") !important; */
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -251,3 +221,91 @@ img.img-slider:hover {
 
 
 }
+
+.margin-top-3rem {
+  margin-top: 3rem;
+}
+
+
+/*  FAQ */
+
+
+
+
+.rustic-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff; /* Accent color for title */
+  font-weight: bold;
+}
+
+
+/* Accordion Styles for Rustic Theme */
+.faq-accordion .accordion-button {
+  color: #000;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+  font-family: 'Open Sans', serif;
+  font-size: 1rem;
+  background-color: #fff;
+  letter-spacing: 2px
+}
+
+.font-opens-sans{
+  font-family: 'Open Sans', serif;
+  font-size: 1rem;
+}
+
+.faq-accordion > p {
+  color: #000 !important;
+  letter-spacing: 2px
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+  background-color: #B750FF;
+  color: #fff;
+}
+
+.faq-accordion .accordion-body {
+  background-color: rgba(255, 255, 255, 0.8); /* Light, transparent background for rustic theme */
+  color: #000 !important;
+  font-size: 1rem;
+  padding: 20px;
+  border: 1px solid #fff; /* Outline for body content */
+  border-radius: 6px;
+  text-align: justify !important;
+}
+
+/* Optional Button Styling for Consistent Theme */
+.rustic-button {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.rustic-button:hover {
+  background-color: red; /* Slightly darker on hover */
+}
+
+   /* 150% Resolution */
+   /* @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
+    .faq-accordion .accordion-button {
+      letter-spacing: 1px !important;
+      font-size: 14px !important;
+    }
+  } */
+
+ /* Responsive layout for mobile devices */
+ @media (max-width: 767px) {
+    .faq-accordion .accordion-button {
+      letter-spacing: 1px !important;
+      font-size: 13px !important;
+    }
+
+
+ }

@@ -15,7 +15,7 @@ const RSVPForm = () => {
             <Col md={12} className="text-center justify-content-center">
                 <div className="form-container">
                     <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLScnYfvdYuqF2xRt4V3g1HkJeJZgj3buR3gckQzFZ_oARNijPg/viewform"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScbXnZN4j57F9FtTepRVEF65GRGj8woReQRvVo3-SawuPp4-w/viewform"
                         width="100%"
                         height="800"
                         frameBorder="0"
