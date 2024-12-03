@@ -93,7 +93,7 @@ const FAQ = () => {
             </Row>
             <Row className="justify-content-center margin-top-3rem">
                 <Col md={12} className="text-center">
-                    <p> If you have further questions, feel free to contact us at [Conntact Info]. We look forward to seeing you there!</p>
+                    <p> If you have further questions, feel free to contact us at [Contact Info]. We look forward to seeing you there!</p>
                 </Col>
             </Row>
            
